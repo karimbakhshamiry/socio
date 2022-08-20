@@ -1,40 +1,40 @@
 ## Socio
 
 For this project function properly, a database is needed. Create a database called 'socio', then create two table for it.
-The tables are called 'posts' and 'users' 
+The tables are called 'posts' and 'users'  <br>
 
-+-----------------+
-| Tables_in_socio |
-+-----------------+
-| posts           |
-| users           |
-+-----------------+
++-----------------+ <br>
+| Tables_in_socio | <br>
++-----------------+ <br>
+| posts           |v
+| users           | <br>
++-----------------+ <br>
 
 The description of tables are as following:
 
---> posts
-+--------------+--------------+------+-----+---------+----------------+
-| Field        | Type         | Null | Key | Default | Extra          |
-+--------------+--------------+------+-----+---------+----------------+
-| id           | int(11)      | NO   | PRI | NULL    | auto_increment |
-| description  | text         | NO   |     | NULL    |                |
-| image        | varchar(100) | YES  |     | NULL    |                |
-| username     | varchar(60)  | NO   |     | NULL    |                |
-| userFullName | varchar(100) | NO   |     | NULL    |                |
-+--------------+--------------+------+-----+---------+----------------+
-
---> users
-+----------------+--------------+------+-----+---------+----------------+<br>
-| Field          | Type         | Null | Key | Default | Extra          |
-+----------------+--------------+------+-----+---------+----------------+
-| id             | int(11)      | NO   | PRI | NULL    | auto_increment |
-| name           | varchar(30)  | NO   |     | NULL    |                |
-| lastName       | varchar(30)  | NO   |     | NULL    |                |
-| username       | varchar(60)  | NO   | UNI | NULL    |                |
-| password       | varchar(100) | NO   |     | NULL    |                |
-| profilePicture | varchar(100) | YES  | UNI | NULL    |                |
-| coverPhoto     | varchar(100) | YES  | UNI | NULL    |                |
-+----------------+--------------+------+-----+---------+----------------+
+--> posts <br>
++--------------+--------------+------+-----+---------+----------------+ <br>
+| Field        | Type         | Null | Key | Default | Extra          | <br>
++--------------+--------------+------+-----+---------+----------------+ <br>
+| id           | int(11)      | NO   | PRI | NULL    | auto_increment | <br>
+| description  | text         | NO   |     | NULL    |                | <br>
+| image        | varchar(100) | YES  |     | NULL    |                | <br>
+| username     | varchar(60)  | NO   |     | NULL    |                | <br>
+| userFullName | varchar(100) | NO   |     | NULL    |                | <br>
++--------------+--------------+------+-----+---------+----------------+ <br>
+ 
+--> users <br>
++----------------+--------------+------+-----+---------+----------------+ <br>
+| Field          | Type         | Null | Key | Default | Extra          | <br>
++----------------+--------------+------+-----+---------+----------------+ <br>
+| id             | int(11)      | NO   | PRI | NULL    | auto_increment | <br>
+| name           | varchar(30)  | NO   |     | NULL    |                | <br>
+| lastName       | varchar(30)  | NO   |     | NULL    |                | <br>
+| username       | varchar(60)  | NO   | UNI | NULL    |                | <br>
+| password       | varchar(100) | NO   |     | NULL    |                | <br>
+| profilePicture | varchar(100) | YES  | UNI | NULL    |                | <br>
+| coverPhoto     | varchar(100) | YES  | UNI | NULL    |                | <br>
++----------------+--------------+------+-----+---------+----------------+ <br>
 
 Create tables using the following commands:
 1. create table user (
